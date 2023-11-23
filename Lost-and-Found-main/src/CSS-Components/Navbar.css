@@ -1,0 +1,117 @@
+/* Navbar main div */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px; /* Adjust as needed */
+  width: 100%;
+  background-color: #0d1936; /* Purple color */
+  border-bottom: 2px solid #0d1936;/* Darker shade for the border */
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo {
+  height: 100%;
+}
+
+.logo img {
+  height: 60px;
+  max-width: 60px;
+  border-radius: 10px;
+  margin-top: 12px;
+}
+
+/* Navigation items */
+.nav-items {
+  display: flex;
+  gap: 20px;
+}
+
+.link-div,
+.active-link {
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.link-div:hover {
+  background-color: #6c3483; /* Adjust hover color */
+}
+
+.active-link {
+  background-color: #5b2c6f; /* Adjust active color */
+}
+
+/* Search bar */
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search_bar {
+  width: 300px; /* Adjust as needed */
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  background-color: #ffffff; /* White background */
+  margin-right: 20px;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.search_bar:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.7);
+}
+
+/* Icons */
+.navbar .icon {
+  margin: auto;
+  color: #ecf0f1;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.home{
+  background-image: url("../Assets/images.jpg");
+  text-align: center;
+  font-size: 80px;
+}
+.homee{
+  background-image: url("../Assets/images.jpg");
+  text-align: center;
+  font-size: 100px;
+  margin-top: 20px;
+  padding-top: 200px;
+}
+
+.goa{
+  text-align: left;
+  font-size: 70px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border: 5px solid black;
+  width: 400px;
+}
+.navbar .icon:hover {
+  color: #3498db;
+}
+
+/* Signup button */
+#signup {
+  background-color: #ffffff; /* White color */
+  color: #000000; /* Black text color */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#signup:hover {
+  background-color: #c0392b;
+  color: #ffffff; /* White text color on hover */
+}
